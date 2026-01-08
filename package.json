@@ -1,0 +1,28 @@
+{
+  "name": "telerik-playwright-tests",
+  "version": "1.0.0",
+  "description": "Playwright automation tests for Telerik Demos website",
+  "scripts": {
+    "test": "playwright test",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:safari": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project=\"Mobile Chrome\" --project=\"Mobile Safari\"",
+    "test:general": "playwright test 01-general-navigation.spec.js",
+    "test:web": "playwright test 02-web-products.spec.js",
+    "test:desktop": "playwright test 03-desktop-mobile.spec.js",
+    "test:reporting": "playwright test 04-reporting-testing.spec.js",
+    "test:forms": "playwright test 05-forms-interactions.spec.js",
+    "test:links": "playwright test 06-links-consistency.spec.js",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report test-results/html-report",
+    "lint": "eslint tests/",
+    "clean": "rm -rf test-results node_modules"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0"
+  }
+}

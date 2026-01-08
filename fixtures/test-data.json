@@ -1,0 +1,25 @@
+{
+  "baseUrl": "https://www.telerik.com/support/demos",
+  "validEmail": "testuser@example.com",
+  "invalidEmail": "invalid-email",
+  "testName": "Test User",
+  "testCompany": "Test Company Inc.",
+  "products": {
+    "web": [
+      "Kendo UI",
+      "Telerik UI for Blazor",
+      "Telerik UI for ASP.NET Core",
+      "Telerik UI for ASP.NET MVC",
+      "Telerik UI for ASP.NET AJAX"
+    ],
+    "desktop": [
+      "Telerik UI for .NET MAUI",
+      "Telerik UI for WinUI",
+      "Telerik UI for WinForms",
+      "Telerik UI for WPF"
+    ],
+    "mobile": [
+      "Telerik UI for .NET MAUI"
+    ]
+  }
+}
